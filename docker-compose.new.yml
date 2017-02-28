@@ -1,0 +1,8 @@
+version: '3'
+services:
+  redis:
+    image: redis:3.0.6
+  pg:
+    image: postgres:9.6
+  nginx:
+    image: nginx:1.11
